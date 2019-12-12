@@ -12,6 +12,8 @@ public class TimeController {
     @RequestMapping("/time")
     public String getTime() {
         return Calendar.getInstance().getTime().toString();
+
+
     }
 
 }
